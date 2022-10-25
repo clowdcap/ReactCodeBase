@@ -2,7 +2,6 @@
 import React from 'react'
 import './App.scss' 
 
-
 /* Import Material Ui */
 
   /* Roboto Font */
@@ -11,10 +10,30 @@ import './App.scss'
   import '@fontsource/roboto/500.css'
   import '@fontsource/roboto/700.css'
 
+// Rotas
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+// Componentes Fixos
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+
+// Pages
+import Home from './pages/home/Home'
+import Login from './pages/login/Login'
+import Register from './pages/register/Register'
 
 const App = () => {
   return (
-    <div>App</div>
+
+    <BrowserRouter>
+      <Header />
+      <Routes>  
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login  />} />
+          <Route path="/" element={<Register  />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   )
 }
 

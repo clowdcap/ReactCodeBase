@@ -1,9 +1,14 @@
 import React from 'react'
 import './home.scss'
 
+/* Import Components */
+import Contato from './../../components/contato/Contato'
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Contato />
+    </>
   )
 }
 

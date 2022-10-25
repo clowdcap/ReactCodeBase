@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+:root {
+
+    /* Colors Base */
+    --bg__color: #333;
+
+    --font__color: #fff;
+    --font__title__color: #fff;
+    --fomt__subtitle__color: #f2f2f2;
+    --font__text: #f2f2f2;
+    --font__subtext: #f9f9f9;
+    --font__link: #fff;
+
+    /* Paleta */
+    --cor__primeiro: #1111;
+    --cor__segundo: #2222;
+    --cor__terceiro: #3333;
+    --cor__quarto: #4444;
+    --cor__quinto: #5555;
+
+    /* Transitions */
+    --trans__01s: all .1s ease-out;
+    --trans__05s: all .5s ease-out;
+    --trans__1s: all 1s ease-out;
+    --trans__2s: all 2s ease-out;
+
+    /* Border */
+    --bor__1: 1px solid var(--cor_primeiro);
+    --bor__2: 2px solid var(--cor_primeiro);
+    --bor__3: 3px solid var(--cor_primeiro);
+    --bor__4: 4px solid var(--cor_primeiro);
+
+    /* Font Size */
+    --fs__capa: 3rem;
+    --fs__nome: 2.5rem;
+    --fs__title: 2rem;
+    --fs__call: 1.75rem;
+    --fs__subtitle: 1.5rem;
+    --fs__content: 1.25rem;
+    --fs__text: 1rem;
+    --fs__subtext: .8rem;
+
+    /* Curvamento das bordas */
+    --border__fraco: 5px;
+    --border__baixo: 10px;
+    --border__medio: 15px;
+    --border__cruvado: 25px;
+    --border__circulo: 50%;
+}
+
