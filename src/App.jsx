@@ -4,11 +4,11 @@ import './App.scss'
 
 /* Import Material Ui */
 
-  /* Roboto Font */
-  import '@fontsource/roboto/300.css'
-  import '@fontsource/roboto/400.css'
-  import '@fontsource/roboto/500.css'
-  import '@fontsource/roboto/700.css'
+/* Roboto Font */
+import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
 
 // Rotas
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -30,7 +30,7 @@ const App = () => {
       <Routes>  
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login  />} />
-          <Route path="/" element={<Register  />} />
+          <Route path="/register" element={<Register  />} />
       </Routes>
       <Footer />
     </BrowserRouter>
